@@ -186,3 +186,48 @@ header .sub-header {
     bottom: 0;
     animation: footerSlideIn 1s ease-out;
 }
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-block {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-block img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
+
+.text-block {
+    flex: 2;
+    padding: 10px;
+}
+
+.text-block p {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+    }
+
+    .text-block, .image-block {
+        flex: 1 1 100%;
+    }
+}

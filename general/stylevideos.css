@@ -9,7 +9,8 @@ body {
 }
 
 header {
-    background-color: #9e15a3;
+    background: rgb(70,252,118);
+    background: radial-gradient(circle, rgba(70,252,118,1) 0%, rgba(133,25,157,1) 90%);
     color: white;
     padding: 20px;
     text-align: center;
@@ -123,7 +124,8 @@ header .sub-header {
 }
 
 .footer {
-    background-color: #9e15a3;
+    background: rgb(70,252,118);
+    background: radial-gradient(circle, rgba(70,252,118,1) 0%, rgba(133,25,157,1) 90%);
     color: white;
     text-align: center;
     padding: 10px;

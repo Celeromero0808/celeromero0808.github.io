@@ -185,7 +185,7 @@ p {
   text-align: center;
   border: 1px solid white;
   cursor: pointer;
-  position: center;
+  position: relative;
 }
 
 .tm-nav-text {

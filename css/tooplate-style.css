@@ -189,7 +189,7 @@ p {
 }
 
 .tm-nav-text {
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
   bottom: 10px;
@@ -225,6 +225,7 @@ p {
 }
 
 .grid {
+  
   display: flex;
   flex-wrap: wrap;
   height: 70vh;
@@ -320,6 +321,7 @@ p {
   color: white;
   z-index: 1001;
 }
+
 
 
 /* Team */
@@ -533,11 +535,9 @@ p:last-child {
     justify-content: flex-end;
   }
   .grid {
-    justify-content: flex-end;
+    justify-content: center;
   }
-  .tm-col-email {
-    padding-left: 15px;
-  }
+  
   .tm-reverse-sm {
     flex-direction: column-reverse;
   }
@@ -562,8 +562,8 @@ p:last-child {
 
 @media (max-width: 419px) {
   .tm-nav-link {
-    width: 120px;
-    height: 120px;
+    width: 155px;
+    height: 155px;
   }
 
   .fa-3x {
